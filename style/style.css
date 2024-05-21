@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Cabin+Sketch:wght@400;700&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:slnt,wght@-10..0,100..900&family=Madimi+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Port+Lligat+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #F6F2F0;
+    font-family: "Inter", sans-serif;
+
+
+
+}
+
+:root {
+    --primary_color: #FF5588;
+}
+
+.container {
+    padding: 20px 200px !important;
+    display: flex;
+
+}
+
+.profile-data {
+
+    width: 18%;
+    margin-top: 75px;
+}
+
+.profile-data img:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+.icons {
+    margin-top: 12px !important;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+}
+
+.icons:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+
+}
+
+.profile-data button {
+    width: 165px;
+    margin: 20px 30px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+
+.profile-data button:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+
+.profile-details {
+    margin-left: 50px;
+
+}
+
+.profile-details .intro h2 {
+    margin-top: 40px;
+    color: var(--primary_color);
+    font-size: 25px;
+    font-weight: 500;
+
+
+}
+
+
+.profile-details .intro h1 {
+    margin: 20px 0px;
+    font-size: 40px;
+    font-weight: 400;
+
+
+
+}
+
+
+.work-done {
+    display: flex;
+    margin-top: 50px;
+}
+
+.projects {
+    margin-right: 130px;
+}
+
+.work-done .projects {
+    text-align: center;
+}
+
+.work-done .projects h1 {
+    color: var(--primary_color);
+
+}
+
+.work-done .projects span {
+    font-size: 24px;
+    font-weight: 400;
+
+
+}
+
+.about-us h2 {
+    margin-top: 7%;
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 400;
+
+
+}
+
+.about-us h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.about-us p {
+    margin-top: 14px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.career-information h2 {
+    margin-top: 5%;
+    color: var(--primary_color);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.career-information h1 {
+    margin-top: 30px;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+
+
+.present h3 {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+.present p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 450;
+
+}
+
+
+.services h2 {
+    margin-top: 5%;
+    color: var(--primary_color);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.services h1 {
+    margin-top: 22px;
+    font-size: 28px;
+    font-weight: 400;
+
+
+}
+
+.main-section {
+    display: flex;
+    text-align: center;
+
+}
+
+.card-section {
+
+    width: 110px;
+    margin: 30px 10px;
+    border: 1px solid #FF5588;
+    border-radius: 20px;
+    padding: 30px 40px;
+
+}
+
+.card-section:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+.card-section span {
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.card-section p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+.second-card {
+
+    width: 110px;
+    margin: 30px 10px;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.second-card:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+
+.second-card span {
+
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.second-card p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+
+
+}
+
+.third-card {
+
+    width: 110px;
+    margin: 30px 10px;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 30px 40px;
+
+}
+
+.third-card:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+
+
+
+.third-card span {
+
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.third-card p {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+
+
+
+.skills h2 {
+    margin-top: 5%;
+    color: var(--primary_color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.skills h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.icon-img {
+    margin-top: 30px;
+    font-size: 45px;
+    justify-content: space-between;
+    color: #5d5759;
+}
+
+.images {
+    margin: 0px 20px;
+}
+
+.images:hover {
+    cursor: pointer;
+    color: #FF5588;
+}
+
+.featured-projects h2 {
+    margin-top: 5%;
+    color: var(--primary_color);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.featured-projects h1 {
+
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.project-img {
+
+    margin-top: 50px;
+}
+
+.foodpanda {
+    width: 56%;
+    border-radius: 25px;
+}
+
+
+
+.portfolio-project img {
+
+    width: 27.8%;
+    height: auto;
+    border-radius: 20px;
+
+
+
+}
+
+
+.clients {
+    border: 1px solid #333333;
+    margin-top: 60px;
+
+    margin-right: 300px;
+    border-radius: 50px;
+    padding: 50px 170px;
+}
+
+.hero-client h2 {
+    margin-top: 4%;
+    color: var(--primary_color);
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.hero-client h1 {
+
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.last-card {
+    display: flex;
+    align-items: center;
+}
+
+
+.photographer {
+    margin-left: 20px;
+
+
+}
+
+.photographer h3 {
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.photographer p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+
+
+}
+
+.para {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #181818;
+
+
+}
+
+.brands h2 {
+    margin-top: 5%;
+    color: var(--primary_color);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.brands h1 {
+    margin-top: 27px;
+    font-size: 38px;
+    font-weight: 400;
+    color: #181818;
+
+}
+
+.work-with-brands {
+    margin-top: 30px;
+    font-size: 45px;
+    justify-content: space-between;
+    color: #5a5959;
+}
+
+
+.brands-images {
+    margin: 0px 50px;
+    width: 90px;
+
+
+}
+
+.brands-images:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
+
+/* contact */
+
+.contact {
+
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--primary_color);
+    margin: 40px 0px;
+
+}
+
+.form-input {
+    margin: 20px 0px;
+}
+
+.form-input input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    width: 400px;
+    padding: 10px;
+}
+
+.form-input input:focus {
+    outline: none;
+
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.form-textarea textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #c7c1c3;
+    padding: 6px;
+}
+
+.form-textarea textarea:focus {
+    outline: none;
+
+}
+
+.hire-btn {
+    padding: 20px 55px;
+    border-radius: 15px;
+    border: 1px solid #c7c1c3;
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #181818;
+    cursor: pointer;
+}
+
+.hire-btn:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px #FF5588;
+}
